@@ -1,0 +1,48 @@
+.container {
+  width: 100%;
+  height: 100vh;
+}
+
+.addPost {
+  width: 310px;
+  height: 210px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background-color: aqua;
+  margin: auto;
+
+}
+
+.addPost>div {
+  display: flex;
+  width: 300px;
+  justify-content: space-between;
+}
+
+.addPost>div>input {
+  padding: 5px;
+  outline: none;
+  border: none;
+}
+
+.addPost>div>button {
+  width: 100%;
+  height: 30px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  background-color: gold;
+}
+
+.parent {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.child {
+  width: 300px;
+  border: 1px solid yellow;
+}
